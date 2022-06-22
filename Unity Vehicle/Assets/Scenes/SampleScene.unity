@@ -303,11 +303,16 @@ PrefabInstance:
       propertyPath: field of view
       value: 52.8
       objectReference: {fileID: 0}
+    - target: {fileID: 8100000, guid: baec086904791744185aaa07a6cf55c2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: baec086904791744185aaa07a6cf55c2, type: 3}
       propertyPath: m_Target
       value: 
       objectReference: {fileID: 2141744213}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8100000, guid: baec086904791744185aaa07a6cf55c2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: baec086904791744185aaa07a6cf55c2, type: 3}
 --- !u!4 &173047718 stripped
 Transform:
